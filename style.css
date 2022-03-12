@@ -1,3 +1,85 @@
 body {
-    background: blue;
+    font-family: 'Metal Mania', cursive;
+    background-image: url(./backgroundimg/pawel-czerwinski-VWVO0g9A3rg-unsplash.jpg);
+    background-size: auto auto;
   }
+
+#nav{
+    /* border: 1px solid green; */
+    text-align: center;
+    margin: 80px 0px 30px 0px;
+  }
+
+#nav li{
+    /* border: 1px solid white; */
+    list-style: none;
+    margin: 20px 20px;
+    display: inline;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+      
+  }
+
+#nav li a{
+    color: lime;
+  }
+
+#nav li :hover{
+    color: violet;
+  }
+
+#content{
+    /* border: 1px solid red; */
+    color: white;
+  }
+
+#content h1{
+      /* border: 1px solid rgba(5, 121, 164, 0.755); */
+      color: violet;
+      text-align: center;
+      font-size: 38px;
+  }
+  
+#content h2{
+    /* border: 1px solid rgba(5, 121, 164, 0.755); */
+      text-decoration: underline;
+      text-align: center;
+      font-size: 24px;
+      color: violet;
+      margin-top: -10px;
+  }
+
+
+#planetsList{
+    /* border: 1px solid orange; */
+    list-style: none;
+    padding-right: 45px;
+    text-align: center;
+    color: aqua;
+    font-size: 22px;
+  }
+
+
+#addedPlanets, #planetSubmit{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+#planetSubmit{
+      background-color: violet;
+      color: aqua;
+  }
+
+#planetSubmit:hover{
+      background-color: rgba(93, 41, 165, 0.899);;
+      color: rgb(0, 255, 123);
+  }
+
+#addedPlanets{
+      background-color: rgba(48, 22, 85, 0.194);
+      color: aqua;
+  }
+
+  
