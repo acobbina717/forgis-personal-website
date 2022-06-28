@@ -82,4 +82,14 @@ body {
       color: aqua;
   }
 
-  
+  #planetImgs{
+      border: 2px solid red;
+      display: grid;
+      max-width: 100%;
+      height: auto;
+      float: right;
+  }
+
+  #ceres{
+    border: 2px solid white;
+  }
